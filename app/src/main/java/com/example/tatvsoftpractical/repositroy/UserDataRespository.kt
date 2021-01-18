@@ -35,19 +35,19 @@ class UserDataRespository {
                     )
                     if (response.body() != null) {
                         data.setValue(response.body())
-                        Log.d(
-                            TAG,
-                            "articles total result:: " + response.body()
-                        )
-                        Log.d(
-                            TAG,
-                            "articles size:: " + response.body()!!.data!!.usersdata!!.size
-                        )
-                        Log.d(
-                            TAG,
-                            "articles title pos 0:: " + response.body()!!.data!!.usersdata?.get(0)
-                            !!.name
-                        )
+//                        Log.d(
+//                            TAG,
+//                            "articles total result:: " + response.body()
+//                        )
+//                        Log.d(
+//                            TAG,
+//                            "articles size:: " + response.body()!!.data!!.usersdata!!.size
+//                        )
+//                        Log.d(
+//                            TAG,
+//                            "articles title pos 0:: " + response.body()!!.data!!.usersdata?.get(0)
+//                            !!.name
+//                        )
                     }
                 }
 
